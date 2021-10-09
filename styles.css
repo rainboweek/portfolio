@@ -24,7 +24,9 @@ nav{
     justify-content: space-between;
 }
 
-
+nav a:hover {
+    text-decoration: underline;
+}
 nav ul li {
     display: inline-block;
     list-style: none;
