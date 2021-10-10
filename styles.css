@@ -23,10 +23,17 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-
+nav a{
+    display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
 nav a:hover {
     text-decoration: underline;
-    tranistion-duration: 0.5s;
+    
 }
 nav ul li {
     display: inline-block;
